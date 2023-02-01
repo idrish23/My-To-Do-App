@@ -19,6 +19,3 @@ for index, todo in enumerate(todos):
         st.experimental_rerun()
 
 st.text_input(label=" ", placeholder="Enter ToDo here",on_change= add_todo, key="input")
-
-st.session_state
-
